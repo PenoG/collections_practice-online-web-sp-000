@@ -8,7 +8,8 @@ end
 
 def sort_array_char_count(char)
   char.sort do {|x| x.length|}
-end
+    print 
+  end
 end
 
 def swap_elements
