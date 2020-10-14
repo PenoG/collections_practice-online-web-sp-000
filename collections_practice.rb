@@ -20,3 +20,8 @@ end
 def reverse_array(num)
   num.reverse
 end
+
+def kesha_maker(char)
+  char.each do {|x|}
+    if x % 3
+end
