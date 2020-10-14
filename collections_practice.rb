@@ -12,7 +12,7 @@ end
 
 def swap_elements(nums)
   temp = nums[1];
-	nums[0] = nums[nums.length-1];
+	nums[1] = nums[nums.length-1];
 	nums[nums.length-1] = temp;
 	return nums;
 end
