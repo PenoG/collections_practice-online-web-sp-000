@@ -11,5 +11,5 @@ def sort_array_char_count(char)
 end
 
 def swap_elements(char)
-  char[0,2].shuffle!
+  char[0,2].switch
 end
