@@ -28,9 +28,7 @@ def kesha_maker(char)
 end
 
 def find_a(char)
-  new = []
-  char.each do |x|
-    new << x.start_with?("a")
+  char.find_all do |x|
+    x[0] == "a"
   end
-  new
 end
