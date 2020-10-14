@@ -32,3 +32,11 @@ def find_a(char)
     x[0] == "a"
   end
 end
+
+def sum_array(char)
+  sum = 0
+  char.each do |x|
+    sum += x
+  end
+  sum
+end
