@@ -28,5 +28,5 @@ def kesha_maker(char)
 end
 
 def find_a(char)
-  char.start_with?("a")
+  char.match("a")
 end
