@@ -23,7 +23,6 @@ end
 
 def kesha_maker(char)
   char.each do |x|
-    x.replace[::3] "$"
+    x[2] = "$"
   end
-  char
 end
