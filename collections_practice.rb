@@ -11,7 +11,7 @@ def sort_array_char_count(char)
 end
 
 def swap_elements(nums)
-  temp = nums[0];
+  temp = nums[1];
 	nums[0] = nums[nums.length-1];
 	nums[nums.length-1] = temp;
 	return nums;
