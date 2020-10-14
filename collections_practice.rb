@@ -23,7 +23,7 @@ end
 
 def kesha_maker(char)
   char.each do {|x|}
-    while x.length[::3] == "$"
+    x.replace[::3] "$"
   end
   char
 end
