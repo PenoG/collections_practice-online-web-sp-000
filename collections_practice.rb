@@ -16,3 +16,8 @@ def swap_elements(nums)
 	nums[nums.length-1] = temp;
 	return nums;
 end
+
+def reverse_array(num)
+  new = []
+  new << num.sort.reverse
+end
