@@ -40,3 +40,7 @@ def sum_array(char)
   end
   sum
 end
+
+def add_s(char)
+  
+end
