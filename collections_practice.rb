@@ -26,3 +26,7 @@ def kesha_maker(char)
     x[2] = "$"
   end
 end
+
+def find_a(char)
+  char.start_with?("a")
+end
