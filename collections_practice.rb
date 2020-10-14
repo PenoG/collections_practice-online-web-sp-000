@@ -2,8 +2,8 @@ def sort_array_asc(num)
   num.sort
 end
 
-def sort_array_desc
-  
+def sort_array_desc(num)
+  num.sort_array_desc
 end
 
 def sort_array_char_count
